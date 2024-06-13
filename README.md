@@ -10,7 +10,7 @@ Any training dataset can be used as long as you have separate the videos into hi
 
 If you want to follow our example, we use this dataset: https://github.com/IanYeung/RealVSR?tab=readme-ov-file
 
-We train on videos.zip and test on LQ_test.zip and GQ_test.zip
+We train on videos.zip and test on LQ_test.zip and GQ_test.zip. If needed, there are utility scripts in utils/ provided that may help in managing these videos.
 # Training
 
 `python train.py`
