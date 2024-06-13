@@ -1,7 +1,7 @@
 # Video-SRGAN
 
 This is a video super-resolution generative adversarial network model created using a single image SRGAN model as the base architecture. This model is used to research potential techniques that could improve such models for super-resolution tasks. To maintain temporal consistency across the sequence of frames, we integrate a long short-term memory (LSTM) layer in the generator network.  Additionally, we incorporate
-temporal smoothing techniques1 by maintaining motion continuity between frames, employing Gaussian smoothing to the motion vectors to average them with a Gaussian-weighted sum. Finally, a temporal loss function is added to ensure coherence between consecutive frames. Further details can be found in our research paper: <temp no link until approved>
+temporal smoothing techniques1 by maintaining motion continuity between frames, employing Gaussian smoothing to the motion vectors to average them with a Gaussian-weighted sum. Finally, a temporal loss function is added to ensure coherence between consecutive frames. Further details can be found in our research paper: [temp no link until approved]
 
 benchmark_results, epochs, epoch_saved, and training_results will be filled as you run your models on datasets. Do not worry if they are initially empty.
 
