@@ -16,4 +16,8 @@ We train on videos.zip and test on LQ_test.zip and GQ_test.zip. If needed, there
 # Training
 
 In train.py, change the paths to the training and validation set to yours respectively. Look at the available arguments for other options, such as model naming. 
+Do the same for the test set path in test_benchmark.py.
+
 `python train.py`
+
+This should output 50 G and 50 
