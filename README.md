@@ -6,11 +6,14 @@ temporal smoothing techniques1 by maintaining motion continuity between frames, 
 benchmark_results, epochs, epoch_saved, and training_results will be filled as you run your models on datasets. Do not worry if they are initially empty.
 
 # Datasets
+
 Any training dataset can be used as long as you have separate the videos into high and low quality videos. This is important for the GAN architecture. 
 
 If you want to follow our example, we use this dataset: https://github.com/IanYeung/RealVSR?tab=readme-ov-file
 
 We train on videos.zip and test on LQ_test.zip and GQ_test.zip. If needed, there are utility scripts in utils/ provided that may help in managing these videos.
+
 # Training
 
+In train.py, change the paths to the training and validation set to yours respectively. Look at the available arguments for other options, such as model naming. 
 `python train.py`
