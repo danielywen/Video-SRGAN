@@ -15,9 +15,9 @@ We train on videos.zip and test on LQ_test.zip and GQ_test.zip. If needed, there
 
 # Training
 
-In train.py, change the paths to the training and validation set to yours respectively. Look at the available arguments for other options, such as model naming. 
+In train.py, change the paths to the training and validation set to yours respectively. Alter the available arguments as desired.
 Do the same for the test set path in test_benchmark.py.
 
 `python train.py`
 
-This should output 50 G and 50 
+After running this script, in epochs/ you will find 50 iterations of netG and netD .pth. Move the last netG.pth file to epoch_saved. You will use this for testing.
