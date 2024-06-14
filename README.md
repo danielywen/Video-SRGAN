@@ -21,3 +21,7 @@ Do the same for the test set path in test_benchmark.py.
 `python train.py`
 
 After running this script, in epochs/ you will find 50 iterations of netG and netD .pth. Move the last netG.pth file to epoch_saved. You will use this for testing.
+
+Now run the testing script on the .pth model that you trained:
+
+`python test_benchmark.py`
