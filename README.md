@@ -30,4 +30,4 @@ You will find both the training and testing results in statistics/.
 
 # Paper
 
-https://arxiv.org/abs/2407.00592
+[https://arxiv.org/abs/2407.00592](https://arxiv.org/abs/2406.16359)
