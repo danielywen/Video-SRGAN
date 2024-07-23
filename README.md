@@ -27,3 +27,7 @@ Now run the testing script on the .pth model that you trained:
 `python test_benchmark.py`
 
 You will find both the training and testing results in statistics/.
+
+# Paper
+
+https://arxiv.org/abs/2407.00592
